@@ -21,8 +21,8 @@ def getHtml():
     # print(response.getcode())
 
     # 设置解码方式
-    data = data.decode('utf-8')
-    return data
+    data1 = data.decode('utf-8')
+    return data1
 
 
 def getImage(html):
